@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iotek.dao.VisitorMapper">
+    <resultMap id="visitorMap" type="Visitor">
+        <id column="id" property="id"></id>
+        <result column="visitor_name" property="visitorName"></result>
+        <result column="visitor_password" property="visitorPassword"></result>
+        <result column="visitor_age" property="visitorAge"></result>
+        <result column="visitor_sex" property="visitorSex"></result>
+        <result column="visitor_national" property="visitorNational"></result>
+    </resultMap>
+</mapper>
